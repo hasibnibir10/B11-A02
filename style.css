@@ -6,3 +6,52 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  .navbar{
+    
+    display: flex;
+    justify-content: space-between;
+
+  }
+.logo-nav{
+    display: flex;
+    justify-content: space-between
+}
+.menubar-nav li {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+}
+.btn-nav{
+  
+  border-radius: 12px;
+  padding: 10px;
+
+  background: rgb(254, 163, 1);
+}
+/*************************Hero Part******************************/
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.empower-orange{
+  color: rgb(254, 163, 1);
+  font-weight: 700;
+  font-size: 56px;
+  text-align: left;
+}
+.tow-blue{
+  color: rgb(1, 172, 253);
+  font-weight: 700;
+  font-size: 56px;
+  text-align: left;
+}
+.std-black{
+  color: rgb(17, 17, 17);
+  font-weight: 700;
+  font-size: 56px;
+  text-align: left;
+}
